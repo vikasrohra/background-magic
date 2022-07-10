@@ -1,0 +1,20 @@
+/*To remove any default spacing provided by the browser*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 80vh;
+  /* background-image: url('background.jpg'); */
+  /* background: #02042c; */
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(219, 11, 94, 0.781),
+      rgba(111, 0, 237, 0.705)
+    ),
+    url('background.jpg');
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 0, 100% 69%, 83% 99%, 0 66%, 0 0);
+}
